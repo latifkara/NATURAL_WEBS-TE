@@ -1,0 +1,261 @@
+/*      line bar    */
+#line-body{
+  width: 100%;
+  height: 100%;
+  margin: 4rem 0;
+}
+.div-body{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-body h1{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 3rem;
+    color: #576855;
+    letter-spacing: 8px;
+    padding-bottom: 2rem;
+}
+.div-body p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+.body-image{
+    width: 70%;
+    height: 100%;
+    margin: 4rem auto;
+
+}
+.image-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 0.75rem;
+    height: 180vh;
+}
+.img-1{
+   height: 90vh;
+
+}
+.resim-1{
+    overflow: hidden;
+    height: 70vh;
+    position: relative;
+}
+.img-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.img-1 img:hover{
+    transform: scale(1.4);
+}
+.img-1 .yazi{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 0.75rem;
+    transition: 0.5s;
+}
+.input{
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75rem;
+}
+.input i{
+    cursor: pointer;
+}
+.input input{
+    border: none;
+    width: 5px;
+}
+.img-1 form button{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.75rem;
+    background-color: #576855;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.resim-1 p.islem{
+    display: none;
+}
+
+
+
+/*
+.zoom-1{
+    width: 100%;
+    height: 27%;
+}
+.body-1{
+    width: 100%;
+    height: 90%;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    transition: 4s;
+    overflow: hidden;
+}
+.body-1 .boyut-1{
+    height: 70vh;
+    background: url('../image/resim-1.webp');
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    
+}
+.boyut-1:hover{
+    transform: scale(1.2);
+
+}
+.body-1 .boyut-2{
+    height: 70vh;
+    background: url('../image/resim-2.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-2:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-3{
+    height: 70vh;
+    background: url('../image/resim-3.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-3:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-4{
+    height: 70vh;
+    background: url('../image/resim-4.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-4:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-5{
+    height: 70vh;
+    background: url('../image/resim-5.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-5:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-6{
+    height: 70vh;
+    background: url('../image/resim-6.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-6:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-7{
+    height: 70vh;
+    background: url('../image/resim-7.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-7:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-8{
+    height: 70vh;
+    background: url('../image/resim-8.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-8:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .boyut-9{
+    height: 70vh;
+    background: url('../image/resim-9.webp');
+    background-size: cover;
+    position: relative;
+
+}
+.boyut-9:hover{
+    background-size: 120% 120%;
+
+}
+.body-1 .islem{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.body-1 p:nth-child(2){
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 1rem 0;
+}
+.body-1 span{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.body-1 form button{
+    width: 100%;
+    height: 2rem;
+    background-color: #576855;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.body-1 form button:hover{
+    opacity: 0.7;
+}
+.aritmetik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.75rem;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.aritmetik input{
+    width: 0.5rem;
+    border: none;
+}
+*/

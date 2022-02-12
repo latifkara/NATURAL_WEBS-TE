@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* sosyal medya hesapları */
+
+.sosyal-medya{
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+.sosyal-medya i{
+    font-size: 1.35rem;
+    padding-top: 2rem;
+}
+/*        header bar      */
+
+header{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.nav-div{
+    width: 13rem;
+    height: 7rem;
+    text-align: center;
+    border: 7px solid #424242;
+}
+.nav-div h1{
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: #424242;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    
+    
+}
+nav ul li{
+    padding: 2rem;
+    padding-top: 3rem;
+    
+}
+nav ul li a{
+    color:  #424242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color:  #aebdac;
+}
+.icon-head{
+    padding-top: 2.5em;
+    
+}
+.icon-head i{
+    font-size: 25px;
+    cursor: pointer;
+    color:  #424242;
+}
+.icon-head a{
+    color:  #424242;
+    padding-right: 1.5rem;
+    padding-left: 0.75rem;
+}
+
+/*         resim bar             */
+#image{
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+.image-div{
+    position: relative;
+}
+.line-image{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #424242;
+}
+.line-image h1{
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    padding-bottom: 1rem;
+}
+.line-image p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    padding-bottom: 2rem;
+} 
+.line-image button{
+    border: 3px solid #424242;
+    font-size: 1.5rem;
+    background: none;
+    width: 12rem;
+    height: 4rem;
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 1s;
+}
+.line-image button:hover{
+    background-color: #aebdac;
+    color: white;
+    border: none;
+}
+
+/*           video bar        */
+
+#video{
+    width: 100%;
+    height: 100%;
+}
+.our-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.our-div h1{
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 5px;
+    color: #576855;
+    padding-bottom: 3rem;
+}
+.video-bar{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.line-video{
+    width: 40%;
+    height: 100%;
+
+}
+.line-video h1{
+   font-size: 1.75rem;
+    text-align: end;
+    color: #424242;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
+}
+.line-video p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    float: right;
+    width: 70%;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    text-align: end;
+}
+.line-video button{
+    border: 3px solid #424242;
+    font-size: 1.5rem;
+    background: none;
+    width: 18rem;
+    height: 4rem;
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 1s;
+    float: right;
+}
+.line-video button:hover{
+    background-color: #aebdac;
+    color: white;
+    border: none;
+}
+.video-div{
+    width: 50%;
+    height: 100%;
+    
+}
+.video-div img{
+    width: 80%;
+    height: 25rem;
+    float: right;
+}
+
+
+/*       ikinci  resim bar         */
+
+#resim{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 6rem;
+}
+.img-div{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+
+}
+.div-resim{
+    position: relative;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    
+}
+.div-image{
+    position: absolute;
+    left: 27%;
+    width: 60%;
+    height: 100%;
+    background: url('../image/GettyImages-2.webp');
+    background-repeat: no-repeat;
+}
+.div-resim img{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+}
+.div-yazi{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #424242;
+
+}
+.div-yazi h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
+}
+.div-yazi p{
+    width: 70%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+.div-yazi button{
+    border: 3px solid #424242;
+    font-size: 1rem;
+    background: none;
+    width: 14rem;
+    height: 4rem;
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 1s;
+}
+.div-yazi button:hover{
+    background-color: #aebdac;
+    color: white;
+    border: none;
+}
+
+/*      natural bar     */
+
+#natural{
+    width: 100%;
+    height: 100%;
+    padding-top: 7rem;
+    position: relative;
+}
+.natural-line{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.natural-line h1{
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    color: #576855;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+.natural-line p{
+    width: 60%;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+
+}
+.natural-image{
+    width: 60%;
+    height: 100%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: row;
+}
+.natural-image-line{
+    width: 60%;
+    padding-left: 5rem;
+    position: relative;
+}
+.natural-image-line p{
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 1rem;
+    line-height: 1.75rem;
+}
+.natural-image-line span{
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    left: 60%;
+}
+#natural button{
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    border: 4px solid #424242;
+    font-size: 1rem;
+    background: none;
+    width: 16rem;
+    height: 3rem;
+    color: #424242;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 1s;
+}
+#natural button:hover{
+    background-color: #aebdac;
+    color: white;
+    border: none;
+}
+
+/*       slide bar      */
+
+#slide{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    
+    margin-bottom: 0;
+
+    
+}
+.slide-div{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+   
+}
+.slide-line{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-line h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    color: #576855;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.slide-image{
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+    
+}
+.div-img-1{
+    width: 20%;
+    height: 180px;
+    float: left;
+    margin: 1.25rem;
+   
+
+}
+.div-img-1 img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.div-img-1 img:hover{
+    -webkit-filter: grayscale(30%) contrast(20%);
+    filter: grayscale(50%) contrast(50%);
+}
+#kapat{
+    height: 5rem;
+    cursor: pointer;
+}
+#kapat:hover{
+    -webkit-filter: grayscale(30%) contrast(20%);
+    filter: grayscale(50%) contrast(50%);
+}
+.div-close{
+   position: absolute;
+   left: 0;
+   top: 75%;
+   background-color: white;
+   width: 100%;
+   height: 10rem;
+   z-index: 30;
+}
+.div-button{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-button button{
+    border: 2px solid #424242;
+    background-color: white;
+    color: #424242;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+.div-button button:hover{
+    background-color: #424242;
+    color: white;
+}
+
+
+/*       footer bar   */
+
+#foot{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+}
+footer{
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #424242;
+}
+.frais{
+    padding: 1rem;
+}
+.frais h2{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1rem;
+}
+.frais ul{
+    padding-top: 1rem;
+}
+.frais ul li{
+    padding-top: 1rem;
+   
+}
+.frais ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.frais ul li a:hover{
+    color: #aebdac;
+}
+.help{
+    padding: 1rem;
+}
+.help h2{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.help ul{
+    padding-top: 1rem;
+}
+.help ul li{
+    padding-top: 1rem;
+}
+.help ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.contact{
+    padding-top: 1rem;
+}
+.contact h2{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.contact ul{
+    padding-top: 1rem;
+}
+.contact ul li {
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.contact ul li i{
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+.news{
+    position: relative;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.news h2{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.news label{
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+}
+.news input{
+    padding: 0.5rem 1rem;
+    border: 4px solid #576855;
+    width: 18rem;
+    margin-bottom: 10px;
+}
+.news input:hover{
+    border: 2px solid #576855;
+}
+.news button{
+   position: absolute;
+   top: 150px;
+    background-color: #576855;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.news button:hover{
+    background-color: #aebdac;
+}
